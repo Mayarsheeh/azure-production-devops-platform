@@ -1,0 +1,35 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+.terraform.lock.hcl
+
+# Local Terraform variables
+*.tfvars
+*.tfvars.json
+!*.example.tfvars
+
+# Misc
+tmp/
+temp/
